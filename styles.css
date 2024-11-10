@@ -1,0 +1,167 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #87CEEB; /* Sky blue */
+    color: #333;
+}
+
+/* Banner Section */
+.banner {
+    background-color: #76c048; /* Grass green */
+    color: #2a4d1f; /* Darker green for text */
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.banner h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.banner button {
+    background-color: #FFDF6B; /* Soft yellow */
+    color: #2A4D1F;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 8px;
+}
+
+.banner button:hover {
+    background-color: #F9C74F;
+}
+
+/* Intro Section */
+.intro {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #FFE5B4; /* Light sand color */
+}
+
+.intro h2 {
+    color: #8C6A42; /* Earthy brown */
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.intro p {
+    color: #4D3319;
+    font-size: 1.1em;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #76C048; /* Grass green */
+}
+
+.features h2 {
+    font-size: 2em;
+    color: #2A4D1F;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.feature-item {
+    background-color: #FFD700; /* Golden yellow */
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    border: 2px solid #8C6A42;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+.feature-item img {
+    margin-bottom: 15px;
+    width: 300px;
+    height: 200px;
+    border-radius: 10%;
+}
+
+.feature-item h3 {
+    color: #4D3319;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* .feature-item p {
+    color: #4D3319;
+    font-size: 1em;
+} */
+
+/* Download Section */
+.download {
+    background-color: #87CEEB; /* Sky blue */
+    color: #2A4D1F;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.download h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #4D3319;
+}
+
+.download p {
+    font-size: 1.1em;
+    max-width: 600px;
+    margin: 0 auto 20px;
+    color: #4D3319;
+}
+
+.download-button {
+    display: inline-block;
+    background-color: #FFDF6B;
+    color: #4D3319;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.download-button:hover {
+    background-color: #F9C74F;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #4D3319; /* Dark earthy brown */
+    color: #FFE5B4; /* Light sand color */
+    text-align: center;
+    padding: 20px;
+}
+
+.footer h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    font-size: 1em;
+}
+
+.footer small {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9em;
+}
